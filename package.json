@@ -1,0 +1,25 @@
+{
+  "name": "tuik",
+  "version": "1.0.0",
+  "description": "A React+Tailwind based component library that allows the user's to create amazing website's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "author": "Hammad-ul-haq",
+  "license": "MIT",
+  "devDependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.3"
+  }
+}
