@@ -1,1 +1,3 @@
-export * from './components/Alerts'
+import { ClassicAlert } from "./components";
+
+export { ClassicAlert }
